@@ -1,12 +1,16 @@
-
-import './App.css'
-import StartGame from './components/StartGame'
+import { useState } from 'react';
+import './App.css';
+import GamePlay from './components/GamePlay';
+import StartGame from './components/StartGame';
 
 function App() {
+  const [isGamePlay, SetisGamePlay] = useState(true);
 
-  return (
-   <StartGame />
-  )
+  const handleStartGame = () => {
+    SetisGamePlay(prev => !prev);
+  };
+
+  return <>{isGamePlay ? <GamePlay /> : <StartGame toogle = {handleStartGame} />}</>;
 }
 
-export default App
+export default App;
