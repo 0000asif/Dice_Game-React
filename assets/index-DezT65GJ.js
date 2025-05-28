@@ -175,4 +175,4 @@ transition: all 0.3s ease-in-out;
 }
   }
 
-`;function kv(){const[c,s]=jl.useState(!0),o=()=>{s(r=>!r)};return P.jsx(P.Fragment,{children:c?P.jsx(Lv,{}):P.jsx(Jv,{toogle:o})})}xy.createRoot(document.getElementById("root")).render(P.jsx(jl.StrictMode,{children:P.jsx(kv,{})}));
+`;function kv(){const[c,s]=jl.useState(!1),o=()=>{s(r=>!r)};return P.jsx(P.Fragment,{children:c?P.jsx(Lv,{}):P.jsx(Jv,{toogle:o})})}xy.createRoot(document.getElementById("root")).render(P.jsx(jl.StrictMode,{children:P.jsx(kv,{})}));
