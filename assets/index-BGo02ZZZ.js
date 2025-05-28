@@ -141,7 +141,7 @@ transition: all 0.3s ease-in-out;
     background-color: black;
     color: white;
   }
-`,Jv=({toogle:c})=>P.jsxs($v,{children:[P.jsx("div",{children:P.jsx("img",{src:"/images/dice.png",alt:"dice image"})}),P.jsxs("div",{className:"content",children:[P.jsx("h1",{children:"DICE GAME"}),P.jsx("button",{onClick:c,children:"Play Now"})]})]}),$v=Gl.div`
+`,Jv=({toogle:c})=>P.jsxs($v,{children:[P.jsx("div",{children:P.jsx("img",{src:"./images/dice.png",alt:"dice image"})}),P.jsxs("div",{className:"content",children:[P.jsx("h1",{children:"DICE GAME"}),P.jsx("button",{onClick:c,children:"Play Now"})]})]}),$v=Gl.div`
   max-width: 1180px;
   margin: 0 auto;
   display: flex;
